@@ -8,3 +8,16 @@
 2022-05-13 22:29:09.355  INFO 16588 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2022-05-13 22:29:09.398  INFO 16588 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
 2022-05-13 22:29:09.407  INFO 16588 --- [restartedMain] sHmdpUpdateMerchantRedisCacheApplication : Started SpringBootRedisHmdpUpdateMerchantRedisCacheApplication in 2.617 seconds (JVM running for 3.173)
+2022-05-13 22:29:34.372  INFO 16588 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-13 22:29:34.373  INFO 16588 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2022-05-13 22:29:51.448  INFO 5900 --- [main] UpdateMerchantRedisCacheApplicationTests : Starting SpringBootRedisHmdpUpdateMerchantRedisCacheApplicationTests using Java 16.0.2 on mao with PID 5900 (started by mao in H:\程序\大三下期\spring_boot_redis_hmdp更新商户redis缓存)
+2022-05-13 22:29:51.450 DEBUG 5900 --- [main] UpdateMerchantRedisCacheApplicationTests : Running with Spring Boot v2.6.7, Spring v5.3.19
+2022-05-13 22:29:51.450  INFO 5900 --- [main] UpdateMerchantRedisCacheApplicationTests : The following 1 profile is active: "dev"
+2022-05-13 22:29:52.319  INFO 5900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-05-13 22:29:52.323  INFO 5900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-05-13 22:29:52.365  INFO 5900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2022-05-13 22:29:53.386  INFO 5900 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2022-05-13 22:29:53.659  INFO 5900 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2022-05-13 22:29:56.157  INFO 5900 --- [main] UpdateMerchantRedisCacheApplicationTests : Started SpringBootRedisHmdpUpdateMerchantRedisCacheApplicationTests in 5.13 seconds (JVM running for 6.045)
+2022-05-13 22:29:56.688  INFO 5900 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2022-05-13 22:29:56.690  INFO 5900 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
